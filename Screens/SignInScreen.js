@@ -1,10 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import SMBLogo from '../Components/SMB_logo';
 
 function SignInScreen() {
   return (
     <View style={styles.screenContainer}>
       <Text>Sign In Screen</Text>
+      <SMBLogo />
     </View>
   );
 }
